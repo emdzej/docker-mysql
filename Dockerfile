@@ -2,7 +2,7 @@ FROM alpine:latest
 
 MAINTAINER Michał Jaskólski <michal@jaskolski.online>
 
-RUN apk add --no-cache mysql
+RUN apk add --no-cache mysql gosu
 
 VOLUME /var/lib/mysql
 
